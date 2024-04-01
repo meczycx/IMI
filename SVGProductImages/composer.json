@@ -1,0 +1,22 @@
+{
+    "name": "imi/magento2-module-svg-product-images",
+    "description": "",
+    "require": {
+        "magento/framework": "^102.0.0|^103.0.0"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IMI\\SVGProductImages\\": ""
+        }
+    }
+}
